@@ -1,0 +1,133 @@
+
+.board{
+	width: 1200px;
+	margin: 0 auto;
+}
+.topBoard{
+	height: 54px;
+	overflow: hidden;	
+}
+.topBoard_logo{
+	float: left;
+	height: 54px;
+	width: 200px;
+	line-height: 54px;
+	background-color: #528dff;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	overflow: hidden;	
+}
+.logo_img{
+	display: inline-block;
+	width: 26px;
+	height: 23px;
+	background-image: url(../img/logo.png);
+	background-size: 100% 100%;
+}
+.logo_text{
+	height: 34px;
+	line-height: 34px;
+	font-size: 18px;
+	color: #FFFFFF;
+	padding: 0 10px;
+}
+.topBoard_right{
+	box-sizing:border-box;
+	border-top: 1px solid #f7f7f7;
+	width: 1000px;
+	height: 54px;
+	float: left;
+}
+.topBoard_right_left{
+	display: flex;
+	align-items:center;
+	float: left;
+	height: 54px;
+	margin-left: 20px;
+}
+.userImage{
+	display: inline-block;
+	width: 34px;
+	height: 34px;
+	background: pink;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+.topBoard_right_right{
+	display: flex;
+	align-items:center;
+	float: right;
+	height: 54px;
+	margin-right: 20px;
+}
+.topBoard_right_right_img{
+	width: 76px;
+	height: 20px;
+	text-align: center;
+	float: right;
+	box-sizing:border-box;
+	border-right: 1px solid #f4f4f4;
+	float: left;	
+}
+.topBoard_right_right_img i{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-image: url(../img/xb.png);
+}
+.topBoard_right_right_img:nth-of-type(2) i{
+	background-position-y: -40px;
+}
+.topBoard_right_right_img:nth-of-type(3){
+	border-right: none;
+}
+.topBoard_right_right_img:nth-of-type(3) i{
+	background-position-y: -20px;
+}
+.topBoard_right_right_search{
+	width: 200px;
+	height: 30px;
+	border: 1px solid #e8e8ea;
+	border-radius: 15px;
+	display: flex;
+	align-items:center;
+}
+.topBoard_right_right_search i{
+	display: inline-block;
+	width: 13px;
+	height: 13px;
+	background-image: url(../img/xb.png);
+	background-position: -20px 0 ;
+	margin: 0 8px;
+}
+.topBoard_right_right_search input{
+	width: 160px;
+}
+.bottomBoard{
+	height: 797px;
+}
+.bottomBoard_left{
+	width: 200px;
+	background-color: #2e3254;
+	float: left;
+	height: 797px;
+	color: #859dc7;
+}
+.bottomBoard_left ul li{
+	height: 61px;
+	display: flex;
+	align-items:center;
+}
+.bigTitle_img{
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	background: pink;
+}
+.bottomBoard_right{
+	width: 1000px;
+	background-color: #f3f3f3;
+	float: left;
+	height: 796px;
+}

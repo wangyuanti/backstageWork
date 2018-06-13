@@ -1,0 +1,23 @@
+.clearFix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+body{
+	margin: 0;
+}
+h1{
+	margin: 0;
+}
+input{
+	padding: 0;
+	margin: 0;
+	border: none;
+	outline:none;
+	background-color: rgba(0,0,0,0);
+}
+ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
