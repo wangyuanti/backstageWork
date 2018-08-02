@@ -1,0 +1,20 @@
+#orderList{
+    height: 100%;
+    overflow: auto;
+}
+#orderList .features .btn-info{
+    float: right
+}
+#orderList .features{
+    margin: 15px 0
+}
+#orderList .ulist-td{
+    vertical-align: middle;
+}
+#orderList .title{
+    line-height: 34px;
+    font-size: 20px;
+}
+#orderList .ulist-td .btn-info{
+    margin-left: 20px;
+}

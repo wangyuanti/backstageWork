@@ -1,0 +1,20 @@
+#sortList{
+    height: 100%;
+    overflow: auto;
+}
+#sortList .features .btn-info{
+    float: right
+}
+#sortList .features{
+    margin: 15px 0
+}
+#sortList .ulist-td{
+    vertical-align: middle;
+}
+#sortList .title{
+    line-height: 34px;
+    font-size: 20px;
+}
+#sortList .ulist-td .btn-info{
+    margin-left: 20px;
+}

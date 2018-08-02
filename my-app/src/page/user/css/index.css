@@ -1,0 +1,20 @@
+#userList{
+    height: 100%; 
+    overflow: auto;
+}
+#userList .ulist-td{
+    vertical-align: middle;
+}
+#userList th{
+    font-size: 16px;
+}
+#userList .btn{
+    margin-left: 12%;
+}
+#userList .features{
+    margin: 15px 0
+}
+#userList .title{
+    line-height: 34px;
+    font-size: 20px;
+}

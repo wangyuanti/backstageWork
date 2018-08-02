@@ -1,0 +1,15 @@
+.login-frame{
+    margin-top: 25%;
+}
+.panel-body-top{
+    padding-top: 35px;
+}
+.prompt{
+    box-sizing: content-box;
+    padding: 3px 0px;
+    color: red;
+    padding-left: 5px;
+    font-size: 14px;
+    /* height: 20px;
+    line-height: 20px; */
+}

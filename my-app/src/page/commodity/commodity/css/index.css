@@ -1,0 +1,26 @@
+#goodsList{
+    height: 100%;
+    overflow: auto;
+}
+#goodsList .features .btn-info{
+    float: right
+}
+#goodsList .features{
+    margin: 15px 0
+}
+#goodsList .ulist-td{
+    vertical-align: middle;
+}
+#goodsList .title{
+    line-height: 34px;
+    font-size: 20px;
+}
+#goodsList .btn-warning{
+    margin-left: 15px;
+}
+#goodsList .btn-info{
+    margin-left: 20px;
+}
+#goodsList .tj{
+    margin-right: 20px;
+}

@@ -1,0 +1,13 @@
+#Find {
+    float: right;
+}
+#Find .float{
+    float: left;
+    margin-right: 10px;
+}
+#Find .input{
+    width: 138px;
+}
+#Find .btn-info{
+    margin: 0;
+}
