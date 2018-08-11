@@ -5,6 +5,7 @@ import Layout from '../component/layout/index';
 import Home from '../page/home/home';
 import Login from '../page/login/index';
 import Commodity from '../page/commodity/commodity/commodity';
+import CoomSave from '../page/commodity/commodity/comm-save';
 import Category from '../page/commodity/category/category';
 import Order from '../page/order/order';
 import User from '../page/user/user';
@@ -21,19 +22,21 @@ class App extends Component {
          };
     }
     componentDidMount(){
-        let a = ck.getCookie('twoID');        
+        
+    }
+    render() {
+        let a = ck.getCookie('twoID');  
+        let loginOnOff;    
         if(a){
             let b = a.split("&")
             cl.confirm(b[0],b[1]);
-            this.setState({loginOnOff:true})
+            loginOnOff=true;
         }else{
-            this.setState({loginOnOff:false})
+            loginOnOff=false;
         }
-        let {loginOnOff}=this.state;
-        console.log(loginOnOff);
-    }
-    render() {
-        let {loginOnOff} = this.state;
+        // let {loginOnOff}=this.state;
+        // console.log(loginOnOff);
+        // let {loginOnOff} = this.state;
         if(loginOnOff){
             return (
                 <Switch> 
@@ -44,6 +47,7 @@ class App extends Component {
                             <Switch>      
                                 <Route exact path="/" component={Home}/>
                                 <Route exact path="/page/Commodity" component={Commodity}/>
+                                <Route exact path="/page/Commodity/save" component={CoomSave}/>
                                 <Route exact path="/page/Category" component={Category}/>
                                 <Route exact path="/page/Order" component={Order}/>
                                 <Route exact path="/page/User" component={User}/>

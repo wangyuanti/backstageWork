@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from "react-router-dom";
 import CommList from './comm-list';
 import Pagination from '../../../pageNum/index';
 import Cookies from '../../../cookie/cookie';
@@ -127,10 +128,10 @@ class Commodity extends Component {
                 <div className='features clearFix'>
                     <b className='title'>商品管理</b>
                     <Find {...{Find:find,ss:this.shaxuan}}/>   
-                    <button type="button" className="btn btn-info tj">
+                    <Link to='Commodity/save' className="btn btn-info tj">
                         <i className='fa fa-plus'></i>
                         <span>添加商品</span>
-                    </button> 
+                    </Link> 
                 </div>
                 <Bread {...{br:bread}}/>
                 <table className="table table-striped table-bordered ">
